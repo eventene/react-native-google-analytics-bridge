@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72494147201BC73A002B680A /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72494146201BC73A002B680A /* libAdIdAccess.a */; };
 		A710AAE31CC640E40085DAC1 /* RCTGoogleTagManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A710AAE21CC640E40085DAC1 /* RCTGoogleTagManagerBridge.m */; };
 		A79185CA1C30694E001236A6 /* RCTGoogleAnalyticsBridge.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A79185C91C30694E001236A6 /* RCTGoogleAnalyticsBridge.h */; };
 		A79185CC1C30694E001236A6 /* RCTGoogleAnalyticsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A79185CB1C30694E001236A6 /* RCTGoogleAnalyticsBridge.m */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		72494146201BC73A002B680A /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
 		A710AAE11CC640E40085DAC1 /* RCTGoogleTagManagerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTGoogleTagManagerBridge.h; sourceTree = "<group>"; };
 		A710AAE21CC640E40085DAC1 /* RCTGoogleTagManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTGoogleTagManagerBridge.m; sourceTree = "<group>"; };
 		A79185C61C30694E001236A6 /* libRCTGoogleAnalyticsBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTGoogleAnalyticsBridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A79185DE1C3070E8001236A6 /* libGoogleAnalyticsServices.a in Frameworks */,
+				72494147201BC73A002B680A /* libAdIdAccess.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +96,7 @@
 		A79185D21C3070E8001236A6 /* google-analytics-lib */ = {
 			isa = PBXGroup;
 			children = (
+				72494146201BC73A002B680A /* libAdIdAccess.a */,
 				C9C74AC31CBD4E9F00F3BD12 /* TAGContainer.h */,
 				C9C74AC41CBD4E9F00F3BD12 /* TAGContainerOpener.h */,
 				C9C74AC51CBD4E9F00F3BD12 /* TAGDataLayer.h */,
